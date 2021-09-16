@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " OO",
+    " S ",
+    " S "
+  ],
+  "key": {
+
+    "S":{
+      "item": "minecraft:stick"
+    },
+
+
+    "O": {
+  
+      "item": "obsidiousmod:obsidian_chunk"
+    }
+  },
+  "result": {
+    "item": "obsidiousmod:obsidian_hoe"
+  }
+}

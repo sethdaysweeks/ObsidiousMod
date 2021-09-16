@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "O O",
+    "   "
+  ],
+  "key": {
+    "O": {
+      "item": "obsidiousmod:obsidian_chunk"
+    }
+  },
+  "result": {
+    "item": "obsidiousmod:obsidian_helmet"
+  }
+}

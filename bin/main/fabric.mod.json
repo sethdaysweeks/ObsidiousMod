@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidiousmod",
+  "version": "0.1.0",
+  "name": "Obsidious Mod",
+  "description": "Adds obsidian stuff",
+  "authors": ["sethdaysweeks"],
+  "contact": {
+    "Github": ""
+  },
+  "license": "Apache License 2.0",
+  "environment": "*",
+  "icon": "assets/obsidiousmod/icon.png",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "sdw.obsidious.mod.obsidiousmod"
+    ],
+    "modmenu": [
+    ]
+  },
+  "mixins": [
+    "obsidious.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+
+}
