@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+        "item": "minecraft:obsidian"
+    }
+],
+"result": {
+  "item": "obsidiousmod:obsidian_chunk",
+  "count": 4
+
+}
+}
