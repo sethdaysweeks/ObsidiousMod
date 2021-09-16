@@ -6,7 +6,7 @@
   "description": "Adds obsidian stuff",
   "authors": ["sethdaysweeks"],
   "contact": {
-    "Github": ""
+    "Github": "https://github.com/sethdaysweeks/ObsidiousMod"
   },
   "license": "Apache License 2.0",
   "environment": "*",
