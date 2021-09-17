@@ -37,7 +37,7 @@ public static final Item OBSIDIANCHESTPLATE = new ArmorItem(OBSIDIAN,EquipmentSl
 public static final Item OBSIDIANCHUNK = new Item(new Item.Settings().group(obsidiousmod.MODTAB));
 
 
-//Obsidian Food   --the first lines are the foodcomponent builder
+//Obsidian Food  
 public static final FoodComponent.Builder FOOD1 = new FoodComponent.Builder().hunger(6).saturationModifier(8F).alwaysEdible()
 .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,20*30), 1F);
 public static final Item OBSIDISUB = new Item(new Item.Settings().group(obsidiousmod.MODTAB).food(FOOD1.build()));
@@ -45,6 +45,10 @@ public static final Item OBSIDISUB = new Item(new Item.Settings().group(obsidiou
 public static final FoodComponent.Builder AQUAFOOD1 = new FoodComponent.Builder().hunger(6).saturationModifier(8F).alwaysEdible()
 .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING,20*30), 1F);
 public static final Item OBSIDISUBMARINE = new Item(new Item.Settings().group(obsidiousmod.MODTAB).food(AQUAFOOD1.build()));
+
+public static final FoodComponent.Builder FIREFOOD1 = new FoodComponent.Builder().hunger(6).saturationModifier(8F).alwaysEdible()
+.statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,20*30), 1F);
+public static final Item SPICY_OBSIDISUB = new Item(new Item.Settings().group(obsidiousmod.MODTAB).food(FIREFOOD1.build()));
 
 
 //Obsidian Tools, the rest are in the /java.../obsidious/mod/items/tools folder cuz they special
@@ -72,6 +76,7 @@ Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_chunk"
 //Obsidian Food register
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidisub"), OBSIDISUB);
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidisubmarine"), OBSIDISUBMARINE);
+Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "spicy_obsidisub"), SPICY_OBSIDISUB);
         
 
 //obsidian tools register

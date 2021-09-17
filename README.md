@@ -18,3 +18,5 @@ Version: 0.0.2 9/17/2021
 Adds:
 
 Obsidisub- sandwhich made with obsidian chunks between whole wheat bunz. gives a little health boost for some seconds
+Obsidisubmarine- sandwhich made with obsidian chunks and kelp between whole wheat bunz. gives a little water breathing for some seconds
+Spicy Obsidisub- sandwhich made with obsidian chunks and nether quartz between whole wheat bunz. gives a little fire resistance for some seconds
