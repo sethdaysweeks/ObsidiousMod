@@ -3,7 +3,6 @@ Obsidian Minecraft Mod
 
 https://github.com/sethdaysweeks/ObsidiousMod
 
-First Published 9/16/2021
 
 version: 0.0.1; 9/16/202
 
