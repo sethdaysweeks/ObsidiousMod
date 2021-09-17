@@ -45,7 +45,7 @@ public static final Item OBSIDISUB = new Item(new Item.Settings().group(obsidiou
 
 
 //Obsidian Tools, the rest are in the /java.../obsidious/mod/items/tools folder cuz they special
-public static final ToolMaterial OBSIDIANTOOL = new CustomToolMaterial();
+public static final ToolMaterial OBSIDIANTOOL = new ObsidianToolMaterial();
 public static ToolItem OBSIDIANSHOVEL = new ShovelItem(OBSIDIANTOOL, -1.0F, -1.0F, new Item.Settings().group(obsidiousmod.MODTAB));
 public static ToolItem OBSIDIANSWORD = new SwordItem(OBSIDIANTOOL, 4, -1.0F, new Item.Settings().group(obsidiousmod.MODTAB));
 
