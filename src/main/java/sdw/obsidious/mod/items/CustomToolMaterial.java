@@ -12,7 +12,7 @@ public class CustomToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 9.0F;
+        return 10.0F;
     }
 
     @Override
@@ -22,19 +22,16 @@ public float getAttackDamage() {
 
     @Override
     public int getEnchantability() {
-        // TODO Auto-generated method stub
         return 15;
     }
 
     @Override
     public int getMiningLevel() {
-        // TODO Auto-generated method stub
-        return 3;
+        return 4;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        // TODO Auto-generated method stub
         return Ingredient.ofItems(RegisterItems.OBSIDIANCHUNK);
     }
 

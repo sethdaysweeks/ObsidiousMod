@@ -53,7 +53,8 @@ public static final ItemGroup MODTAB = FabricItemGroupBuilder.build (new Identif
     @Override
     public void onInitialize() {
         logString(Level.INFO, "Initializing");
-        RegisterItems.register();
+        
+        RegisterItems.register();   //See  /mod/items folder for the item registry
 
 
     }

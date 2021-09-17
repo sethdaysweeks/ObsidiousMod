@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "OOO",
+    "WWW"
+  ],
+  "key": {
+
+    "W":{
+      "item": "minecraft:wheat"
+    },
+
+
+    "O": {
+  
+      "item": "obsidiousmod:obsidian_chunk"
+    }
+  },
+  "result": {
+    "item": "obsidiousmod:obsidisub"
+  }
+}
