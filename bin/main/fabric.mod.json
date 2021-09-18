@@ -6,7 +6,8 @@
   "description": "Adds obsidian stuff",
   "authors": ["sethdaysweeks"],
   "contact": {
-    "Github": "https://github.com/sethdaysweeks/ObsidiousMod"
+    "sources": "https://github.com/sethdaysweeks/ObsidiousMod",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/obsidious"
   },
   "license": "Apache License 2.0",
   "environment": "*",
