@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OGO",
+    " L ",
+    " R "
+  ],
+  "key": {
+
+    "L":{
+      "item": "minecraft:lightning_rod"
+    },
+
+    "R":{
+      "item": "minecraft:redstone"
+    },
+
+    "G":{
+      "item": "minecraft:gold"
+    },
+
+
+    "O": {
+  
+      "item": "obsidiousmod:obsidian_chunk"
+    }
+  },
+  "result": {
+    "item": "obsidiousmod:obsidian_hammer"
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+
 import sdw.obsidious.mod.items.RegisterItems;
 
 
@@ -19,7 +20,6 @@ import sdw.obsidious.mod.items.RegisterItems;
 
 public class obsidiousmod implements ModInitializer {
     public static final String MODID = "obsidiousmod";
-   // public static final String KEY = MODID + ":portalgun_portals";
     public static final String MOD_NAME = "obsidious_mod";
 
 
@@ -58,5 +58,8 @@ public static final ItemGroup MODTAB = FabricItemGroupBuilder.build (new Identif
 
 
     }
+
+
+
 
 }

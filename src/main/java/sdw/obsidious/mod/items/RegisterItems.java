@@ -16,6 +16,7 @@ import net.minecraft.item.ToolItem;
 import net.minecraft.item.ToolMaterial;
 import sdw.obsidious.mod.obsidiousmod;
 import sdw.obsidious.mod.items.tools.obsidianaxe;
+import sdw.obsidious.mod.items.tools.obsidianhammer;
 import sdw.obsidious.mod.items.tools.obsidianhoe;
 import sdw.obsidious.mod.items.tools.obsidianpickaxe;
 
@@ -81,6 +82,7 @@ Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "spicy_obsidisub
 
 //obsidian tools register
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_pickaxe"), new obsidianpickaxe(OBSIDIANTOOL));
+Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_hammer"), new obsidianhammer(OBSIDIANTOOL));
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_axe"), new obsidianaxe(OBSIDIANTOOL));
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_hoe"), new obsidianhoe(OBSIDIANTOOL));
 Registry.register(Registry.ITEM, new Identifier("obsidiousmod", "obsidian_sword"), OBSIDIANSWORD);

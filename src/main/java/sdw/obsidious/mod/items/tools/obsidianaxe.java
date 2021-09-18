@@ -2,6 +2,7 @@ package sdw.obsidious.mod.items.tools;
 
 
 
+
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 
@@ -18,7 +19,6 @@ public class obsidianaxe extends AxeItem {
     }
 
 
-    
-}
 
+}
 
